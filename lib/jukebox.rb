@@ -33,8 +33,8 @@
         elsif users_input == index 
           play_response = "Playing #{song}"
         end 
-          puts play_response
         end
+        puts play_response
       end
       
       def exit_jukebox
