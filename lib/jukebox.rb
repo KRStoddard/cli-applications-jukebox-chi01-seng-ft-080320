@@ -30,7 +30,6 @@
         play_response = "Invalid input, please try again"
         if users_input == song 
           play_response = "Playing #{song}"
-          puts play_response
         elsif users_input == index 
           play_response = "Playing #{song}"
         end 
