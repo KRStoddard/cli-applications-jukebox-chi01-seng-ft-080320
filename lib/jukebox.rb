@@ -19,7 +19,7 @@
     
     def list(songs)
       songs.each_with_index do |song, index|
-        puts "#{index}. #{song}"
+        puts "#{index + 1}. #{song}"
       end 
     end
     
@@ -30,7 +30,7 @@
       songs.each_with_index do |song, index|
         if users_input == song 
           play_response = "Playing #{song}"
-        elsif users_input == index 
+        elsif users_input == "#{index + 1}" 
           play_response = "Playing #{song}"
         end 
         end
